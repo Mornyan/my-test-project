@@ -1,3 +1,7 @@
 language: node_js
 node_js:
-        - "node"
+    - "node"
+script:
+    - echo “coucoucou”
+    - npm update
+    - node_modules/.bin/jshint src
